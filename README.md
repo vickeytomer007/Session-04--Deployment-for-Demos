@@ -21,7 +21,7 @@ Install dependencies
 
 ```bash
 # clone project
-git clone https://github.com/MohammedYaseen97/emlo-2.0-assignment-4
+git clone https://github.com/vickeytomer007/Session-04--Deployment-for-Demos
 cd emlo-2.0-assignment-4
 
 # [OPTIONAL] create conda environment
@@ -78,7 +78,7 @@ This build also exists on [dockerhub](hub.docker.com)
 To run the container, use:
 
 ```bash
-docker run -p 8080:8080 -t ace47/emlo-2.0:session04
+docker run -p 8080:8080 -t Session-04--Deployment-for-Demos
 ``` 
 
 To run the demo which uses torchscript, make and run the docker file as above. Alternatively, run it in your local using:
